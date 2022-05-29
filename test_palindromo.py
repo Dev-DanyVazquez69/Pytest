@@ -1,5 +1,4 @@
 #arquivo de testes para o desafio de palindrom
-
 from padronizar import Palindromo
 import pytest
 
@@ -13,6 +12,7 @@ def test_End_Start():
     resul = False
 
   assert resul
+
 #testar minimo de caracteres 
 def test_size_minimum():
   if len(palin) > 0:
@@ -22,9 +22,7 @@ def test_size_minimum():
 
   assert resul
 
-def test_verificar_oposto():
-  palin_reverse = ''.join(reversed(palin))
-  assert palin_reverse == palin
+#testar maximo de caracteres
 def test_size_limit():
   if len(palin) <= 1000:
     resul = True
@@ -32,3 +30,8 @@ def test_size_limit():
     resul = False
 
   assert resul
+
+#verificar se o texto inverso é igual ao normal(palindromo) 
+def test_verificar_oposto():
+  palin_reverse = ''.join(reversed(palin))
+  assert palin_reverse == palin
