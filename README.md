@@ -1,3 +1,16 @@
+# **Integrantes**
+
+ **- Daniel Santos -** 
+ testes de palindromo
+  
+ **- Gabriel Ximenes**
+ Diferença Diagonal
+
+**- Wasley Santos**
+Soma de Array
+
+___________________________________________________________________
+
 TDD - Engenharia de Software
 Essa tarefa tem por objetivo praticar o Desenvolvimento Orientado (ou Dirigido) a Testes (do inglês, Test Driven Development) como parte do conteúdo programático da disciplina de Engenharia de Software.
 
