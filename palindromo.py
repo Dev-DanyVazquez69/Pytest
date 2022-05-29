@@ -1,6 +1,7 @@
 class Palindromo:
 
-  palin = "SOCORRAM, ME SUBI NO ONIBUS EM MARROCOS!"
+  #palin = "SOCORRAM, ME SUBI NO ONIBUS EM MARROCOS!"
+  palin = ""
   
   def __init__(self):
     self.palin
